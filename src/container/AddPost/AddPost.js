@@ -18,10 +18,7 @@ class AddPost extends Component {
     editorState: '',
   }
 
-  valueChange = event => {
-    const name =event.target.name;
-    this.setState({[name]: event.target.value});
-  };
+  valueChange = event => this.setState({[event.target.name]: event.target.value});
 
   submit = event => {
     event.preventDefault();

@@ -31,9 +31,7 @@ class PostShow extends Component {
 
   delete = event => {
     event.preventDefault();
-
     this.setState({loading: true});
-
     this.deleteAPI();
     this.setState({loading: false});
   };

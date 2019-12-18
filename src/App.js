@@ -14,9 +14,9 @@ class App extends Component {
     return (
       <div className="App">
         <BrowserRouter>
-        <div className="App-header">
-          <h1 className="App-blog">My blog</h1>
-          <nav className="App-nav">
+          <div className="App-header">
+            <h1 className="App-blog">My blog</h1>
+            <nav className="App-nav">
               <NavLink exact to="/" className="link">Home</NavLink>
               <NavLink to="/posts/add/" className="link">Add</NavLink>
               <NavLink to="/about" className="link">About</NavLink>
@@ -34,8 +34,8 @@ class App extends Component {
           </Switch>
         </BrowserRouter>
       </div>
-      )
-    }
+    )
   }
+}
   
 export default App;
