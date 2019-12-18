@@ -1,0 +1,49 @@
+.AddPost_form{
+  margin: 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#title {
+  margin: 10px 0 10px 5px;
+  color: rgb(72, 13, 80);
+}
+
+#description {
+  margin: 10px 0 10px 5px;
+  color: rgb(72, 13, 80);
+}
+
+.AddPost_button, .AddPost_delete {
+  width: 200px;
+}
+
+.AddPost_btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.AddPost_title {
+  text-align: left;
+  margin: 10px 0 20px 55px;
+}
+
+.AddPost_block {
+  border: 1px solid  rgb(196, 157, 85);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.public-DraftStyleDefault-ltr {
+  background: rgb(255, 255, 255);
+  color: rgb(68, 67, 67);
+  padding: 5px;
+  min-height: 100px;
+  border-radius: 3px;
+}
+
+div.public-DraftStyleDefault-block.public-DraftStyleDefault-ltr {
+  margin: 0;
+}

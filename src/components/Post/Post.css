@@ -1,0 +1,31 @@
+.Post {
+  text-align: left;
+  margin: 10px;
+  padding: 10px 10px;
+  border: 1px solid rgb(221, 213, 213);
+  border-radius: 5px;
+  background: rgb(58, 57, 57);
+}
+.Post_time_text {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Post_time {
+  display: inline-block;
+}
+
+.Post_btn {
+  color: rgb(58, 57, 57);
+  background: rgb(196, 157, 85);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Post a {
+  color: rgb(196, 157, 85);
+  border: 1px solid rgb(221, 213, 213);
+  padding: 5px 10px;
+  border-radius: 5px;
+}

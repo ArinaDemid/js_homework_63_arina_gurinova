@@ -1,0 +1,38 @@
+body {
+  background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+}
+
+.App {
+  margin: 30px auto;
+  width: 900px;
+  height: 900px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(68, 67, 67);
+  color: rgb(221, 213, 213);
+}
+
+.link {
+  margin: 20px 15px;
+  display: inline-block;
+  color: rgb(221, 213, 213);
+}
+
+.active {
+  color: rgb(0, 0, 0);
+  background: rgb(240, 221, 186);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.link:hover {
+  color: rgb(196, 157, 85);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 55px;
+}
